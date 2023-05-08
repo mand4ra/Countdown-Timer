@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;    
+}
+
+body{
+    background-image: url("https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1816&q=80");
+    font-family: sans-serif,;
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+ 
+
+
+}
+
+    h1 {
+        font-size: 4rem ;
+        margin-top: -10rem;
+        font-weight: normal;
+    
+}
+
+
+  
+
+  .contagem-regressiva{
+    display: flex;
+
+
+
+  }
+
+  .texto{
+    font-size: flex;
+    line-height: 1;
+    margin: 0 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+
+  }
+
+  .Contagem{
+    text-align: center;
+
+
+  }
+
+  .Contagem span{
+    font-size: 1rem;
+
+
+  }
+
