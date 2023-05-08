@@ -23,9 +23,13 @@ function countdown () {
     HorasEL.innerHTML = Horas;
     MinutosEL.innerHTML = Minutos;
     SegundosEL.innerHTML = Segundos;
-    
-
+ 
 }
+        function formatTimer(time) {
+            return time < 10 ? `0$(time)` : time
+        }
+
+
 countdown();
 
 setInterval(countdown, 1000);
